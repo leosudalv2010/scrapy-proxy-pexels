@@ -32,7 +32,7 @@ ITEM_PIPELINES = {
     'pexels.pipelines.MongoPipeline': 304,
 }
 IMAGES_STORE = './images'
-EXPORT_FEED_ENCODING = 'utf-8'
+FEED_EXPORT_ENCODING = 'utf-8'
 
 LOG_FILE = 'log'
 LOG_LEVEL = 'INFO'
